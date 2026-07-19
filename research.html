@@ -2,60 +2,48 @@
 <html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
-    <title>Research & Methods | Dr. Shafaque Zehra</title>
+    <title>Dr. Shafaque Zehra | Research Methods</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <!-- (Copy the <nav> block exactly from index.html here) -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="index.html" class="logo">Dr. Shafaque Zehra</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="research.html" class="active">Research</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button id="theme-toggle"><i class="fas fa-moon"></i></button></li>
+            </ul>
+        </div>
+    </nav>
     
     <main class="container">
-        <h2 class="section-title">Research Ecosystem</h2>
-        
-        <h3 style="margin-bottom: 1.5rem;">Research Interests</h3>
-        <div class="badge-container">
-            <span class="badge">Graphic Novel Studies</span>
-            <span class="badge">Visual Rhetoric</span>
-            <span class="badge">Multimodal Discourse Analysis</span>
-            <span class="badge">Digital Humanities</span>
-            <span class="badge">Artificial Intelligence and Literature</span>
-            <span class="badge">Reader Response Theory</span>
-            <span class="badge">Trauma and Memory Studies</span>
-            <span class="badge">Postcolonial Studies</span>
-            <span class="badge">Visual Culture</span>
-            <span class="badge">Higher Education Pedagogy</span>
-            <span class="badge">Communication Studies</span>
-            <span class="badge">Stylistics</span>
+        <h2 class="section-title">Research Methods</h2>
+        <div class="grid-container">
+            <div class="animated-box"><i class="fas fa-search"></i><p>Stylistic Analysis</p></div>
+            <div class="animated-box"><i class="fas fa-project-diagram"></i><p>Multimodal Discourse</p></div>
+            <div class="animated-box"><i class="fas fa-eye"></i><p>Visual Rhetoric</p></div>
+            <div class="animated-box"><i class="fas fa-book-reader"></i><p>Qualitative Literary Research</p></div>
+            <div class="animated-box"><i class="fas fa-user-friends"></i><p>Reader Response Theory</p></div>
+            <div class="animated-box"><i class="fas fa-balance-scale"></i><p>Comparative Literary Analysis</p></div>
+            <div class="animated-box"><i class="fas fa-globe"></i><p>Postcolonial Criticism</p></div>
+            <div class="animated-box"><i class="fas fa-hand-holding-heart"></i><p>Trauma Studies</p></div>
         </div>
 
-        <div class="creative-grid" style="margin-top: 4rem;">
-            <div class="card">
-                <h3><i class="fas fa-microscope" style="color: var(--accent)"></i> Research Methods</h3>
-                <hr style="margin: 1rem 0; border-color: var(--border);">
-                <ul class="styled-list">
-                    <li>Stylistic Analysis</li>
-                    <li>Multimodal Discourse Analysis</li>
-                    <li>Visual Rhetoric</li>
-                    <li>Qualitative Literary Research</li>
-                    <li>Reader Response Theory</li>
-                    <li>Comparative Literary Analysis</li>
-                    <li>Postcolonial Criticism</li>
-                    <li>Trauma Studies</li>
-                </ul>
-            </div>
-            
-            <div class="card">
-                <h3><i class="fas fa-laptop-code" style="color: var(--accent)"></i> Digital Research Tools</h3>
-                <hr style="margin: 1rem 0; border-color: var(--border);">
-                <ul class="styled-list">
-                    <li>Microsoft Office & Google Workspace</li>
-                    <li>Zotero & Mendeley</li>
-                    <li>Canva</li>
-                    <li>AI: ChatGPT, Claude, Perplexity</li>
-                    <li>Google Scholar</li>
-                    <li>Academic databases (JSTOR, Project MUSE, Scopus, Web of Science)</li>
-                </ul>
-            </div>
+        <h2 class="section-title">Digital Research Tools</h2>
+        <div class="grid-container">
+            <div class="animated-box"><i class="fab fa-microsoft"></i><p>Microsoft Office</p></div>
+            <div class="animated-box"><i class="fab fa-google"></i><p>Google Workspace</p></div>
+            <div class="animated-box"><i class="fas fa-bookmark"></i><p>Zotero & Mendeley</p></div>
+            <div class="animated-box"><i class="fas fa-paint-brush"></i><p>Canva</p></div>
+            <div class="animated-box"><i class="fas fa-robot"></i><p>AI Tools</p><span>ChatGPT, Claude, Perplexity</span></div>
+            <div class="animated-box"><i class="fas fa-graduation-cap"></i><p>Google Scholar</p></div>
+            <div class="animated-box" style="grid-column: 1 / -1;"><i class="fas fa-database"></i><p>Academic Databases</p><span>JSTOR, Project MUSE, Scopus, Web of Science</span></div>
         </div>
     </main>
     <script src="script.js"></script>
