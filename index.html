@@ -9,12 +9,13 @@
 <body>
     <nav class="navbar">
         <div class="nav-content">
-            <a href="index.html" class="logo">Dr. S. Zehra</a>
+            <a href="index.html" class="logo">Dr. Shafaque Zehra</a>
             <ul class="nav-links">
                 <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="experience.html">Experience</a></li>
                 <li><a href="research.html">Research</a></li>
                 <li><a href="publications.html">Publications</a></li>
-                <li><a href="experience.html">Experience</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><button id="theme-toggle"><i class="fas fa-moon"></i></button></li>
             </ul>
@@ -22,30 +23,65 @@
     </nav>
 
     <main class="container">
-        <h1 style="font-size: 3.5rem; margin-bottom: 1rem;">Dr. Shafaque Zehra</h1>
-        <h2 style="font-size: 1.5rem; color: var(--accent); margin-bottom: 2rem; font-family: var(--font-sans);">Interdisciplinary Humanities Researcher</h2>
-        
-        <p style="font-size: 1.2rem; margin-bottom: 3rem; color: var(--text-muted); max-width: 800px;">
-            Exploring how stories, images, and emerging technologies shape the ways we read, learn, and understand the world.
-        </p>
-
-        <!-- Book Showcase Section -->
-        <div class="book-showcase">
-            <div class="book-content">
-                <div class="book-image">
-                    <!-- JARVIS NOTE: Upload your book cover as 'book-cover.jpg' in the folder -->
-                    <img src="book-cover.jpg" alt="Narrating the Everyday Cover" onerror="this.src='https://via.placeholder.com/250x380?text=Book+Cover'">
-                </div>
-                <div class="book-text">
-                    <span style="color: var(--accent); font-weight: bold; text-transform: uppercase;">Latest Publication (2025)</span>
-                    <h3>Narrating the Everyday: Spaces, Practices and Voices</h3>
-                    <p>Edited by Prasad, S., & Zehra, S. (Authors Press, New Delhi).</p>
-                    <p>An exploration of spaces, practices, and voices that define the everyday human experience through interdisciplinary lenses.</p>
-                    <a href="https://amzn.in/d/0iqpmb2V" target="_blank" class="amzn-btn">
-                        <i class="fab fa-amazon"></i> Available on Amazon
-                    </a>
+        <!-- Photograph & Intro Section -->
+        <div class="profile-layout">
+            <div class="profile-img">
+                <img src="profile-photo.jpg" alt="Dr. Shafaque Zehra" onerror="this.src='https://via.placeholder.com/250x300?text=Upload+profile-photo.jpg'">
+            </div>
+            <div class="profile-intro">
+                <h2>Guest Faculty (Communication Skills)</h2>
+                <h3>Department of English | Jamia Millia Islamia, New Delhi <br> (August 2024 – Present)</h3>
+                <p style="margin-bottom: 1.5rem; font-style: italic; color: var(--text-muted);">Key Responsibilities:</p>
+                
+                <div class="grid-container" style="margin-top: 0;">
+                    <div class="animated-box">
+                        <i class="fas fa-users"></i>
+                        <p>Teaching</p>
+                        <span>Communication Skills to undergraduate students</span>
+                    </div>
+                    <div class="animated-box">
+                        <i class="fas fa-book-open"></i>
+                        <p>Course Planning</p>
+                        <span>Instructional design and structure</span>
+                    </div>
+                    <div class="animated-box">
+                        <i class="fas fa-comments"></i>
+                        <p>Mentoring</p>
+                        <span>Student mentoring and classroom facilitation</span>
+                    </div>
+                    <div class="animated-box">
+                        <i class="fas fa-file-signature"></i>
+                        <p>Assessment</p>
+                        <span>Assignment preparation & internal evaluation</span>
+                    </div>
+                    <div class="animated-box" style="grid-column: 1 / -1;">
+                        <i class="fas fa-lightbulb"></i>
+                        <p>Pedagogy</p>
+                        <span>Promoting communication and critical thinking skills through interactive pedagogy</span>
+                    </div>
                 </div>
             </div>
+        </div>
+
+        <h2 class="section-title">Research Profile</h2>
+        <p>I am an interdisciplinary humanities researcher specializing in graphic narratives, multimodal discourse analysis, visual rhetoric, and postcolonial visual culture. My research examines how visual storytelling constructs identity, memory, trauma, marginalization, and epistemic justice across literary and digital environments.</p>
+        <br>
+        <p>My recent work extends into AI-assisted reading practices, digital humanities, multimodal literacy, and innovative approaches to higher education pedagogy. I am particularly interested in the evolving relationship between literature, visual communication, technology, and knowledge production.</p>
+
+        <h2 class="section-title">Research Interests</h2>
+        <div class="grid-container">
+            <div class="animated-box"><i class="fas fa-book"></i><p>Graphic Novel Studies</p></div>
+            <div class="animated-box"><i class="fas fa-eye"></i><p>Visual Rhetoric</p></div>
+            <div class="animated-box"><i class="fas fa-project-diagram"></i><p>Multimodal Discourse</p></div>
+            <div class="animated-box"><i class="fas fa-laptop-code"></i><p>Digital Humanities</p></div>
+            <div class="animated-box"><i class="fas fa-robot"></i><p>AI & Literature</p></div>
+            <div class="animated-box"><i class="fas fa-user-check"></i><p>Reader Response Theory</p></div>
+            <div class="animated-box"><i class="fas fa-brain"></i><p>Trauma & Memory</p></div>
+            <div class="animated-box"><i class="fas fa-globe-asia"></i><p>Postcolonial Studies</p></div>
+            <div class="animated-box"><i class="fas fa-palette"></i><p>Visual Culture</p></div>
+            <div class="animated-box"><i class="fas fa-chalkboard-teacher"></i><p>Higher Ed Pedagogy</p></div>
+            <div class="animated-box"><i class="fas fa-comments"></i><p>Communication</p></div>
+            <div class="animated-box"><i class="fas fa-pen-nib"></i><p>Stylistics</p></div>
         </div>
     </main>
     <script src="script.js"></script>
