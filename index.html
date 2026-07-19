@@ -2,152 +2,52 @@
 <html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of Dr. Shafaque Zehra, Interdisciplinary Humanities Researcher">
-    <title>Dr. Shafaque Zehra | Academic Portfolio</title>
+    <title>Dr. Shafaque Zehra | Home</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
         <div class="nav-content">
-            <a href="#" class="logo">Dr. S. Zehra</a>
+            <a href="index.html" class="logo">Dr. S. Zehra</a>
             <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#research">Research</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#teaching">Experience</a></li>
-                <li><button id="theme-toggle" aria-label="Toggle Dark Mode"><i class="fas fa-moon"></i></button></li>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button id="theme-toggle"><i class="fas fa-moon"></i></button></li>
             </ul>
         </div>
     </nav>
 
-    <header class="hero">
-        <div class="container">
-            <h1>Dr. Shafaque Zehra</h1>
-            <h2>Interdisciplinary Humanities Researcher</h2>
-            <p class="bio-short">Exploring how stories, images, and emerging technologies shape the ways we read, learn, and understand the world.</p>
-            
-            <!-- Upgraded Academic Profiles & CV -->
-            <div class="action-group">
-                <a href="Resume_Dr%20Shafaque%20Zehra.pdf" class="btn btn-primary" download><i class="fas fa-file-download"></i> Download CV</a>
-                <a href="https://scholar.google.com/citations?user=N5JJjjAAAAAJ" target="_blank" class="btn btn-outline"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
-                <a href="https://orcid.org/0009-0004-7044-670X" target="_blank" class="btn btn-outline"><i class="fab fa-orcid"></i> ORCID</a>
-                <a href="https://www.linkedin.com/in/dr-shafaque-zehra-86493b15a" target="_blank" class="btn btn-outline-icon" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>            </div>
-        </div>
-    </header>
-
     <main class="container">
-        <section id="about" class="section">
-            <div class="grid-2-col">
-                <div>
-                    <h2 class="section-title">Introduction</h2>
-                    <p>I am an interdisciplinary humanities researcher whose work explores the intersections of literature, visual culture, education, and emerging technologies. My research examines how stories, images, and multimodal forms shape identity, memory, marginalization, and knowledge production in contemporary society.</p>
-                    <p>Drawing on approaches from stylistics, visual rhetoric, multimodal discourse analysis, and postcolonial studies, I investigate graphic narratives as powerful sites of cultural expression and social inquiry. More recently, my work has expanded to examine artificial intelligence, digital humanities, and the evolving relationship between technology, reading, and higher education.</p>
-                </div>
-                <div>
-                    <h2 class="section-title">Education</h2>
-                    <div class="timeline-modern">
-                        <div class="timeline-item">
-                            <span class="timeline-date">2024</span>
-                            <h3>Ph.D. in English Literature</h3>
-                            <p class="timeline-inst">Jamia Millia Islamia, New Delhi</p>
-                            <p class="timeline-details">Dissertation: <em>A Stylistic Study of Embedded Marginalization in Select Graphic Novels</em></p>
-                        </div>
-                        <div class="timeline-item">
-                            <span class="timeline-date">2018</span>
-                            <h3>Master of Arts (English Literature)</h3>
-                            <p class="timeline-inst">Aligarh Muslim University</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <h1 style="font-size: 3.5rem; margin-bottom: 1rem;">Dr. Shafaque Zehra</h1>
+        <h2 style="font-size: 1.5rem; color: var(--accent); margin-bottom: 2rem; font-family: var(--font-sans);">Interdisciplinary Humanities Researcher</h2>
+        
+        <p style="font-size: 1.2rem; margin-bottom: 3rem; color: var(--text-muted); max-width: 800px;">
+            Exploring how stories, images, and emerging technologies shape the ways we read, learn, and understand the world.
+        </p>
 
-        <!-- Upgraded Research Section -->
-        <section id="research" class="section">
-            <h2 class="section-title text-center">Research Ecosystem</h2>
-            <div class="card-grid">
-                <div class="research-card">
-                    <i class="fas fa-book-open card-icon"></i>
-                    <h3>Visual Rhetoric & Narratives</h3>
-                    <p>Analyzing graphic novel studies, multimodal discourse, and the stylistics of visual storytelling.</p>
+        <!-- Book Showcase Section -->
+        <div class="book-showcase">
+            <div class="book-content">
+                <div class="book-image">
+                    <!-- JARVIS NOTE: Upload your book cover as 'book-cover.jpg' in the folder -->
+                    <img src="book-cover.jpg" alt="Narrating the Everyday Cover" onerror="this.src='https://via.placeholder.com/250x380?text=Book+Cover'">
                 </div>
-                <div class="research-card">
-                    <i class="fas fa-laptop-code card-icon"></i>
-                    <h3>Digital Humanities & AI</h3>
-                    <p>Investigating artificial intelligence in literature, reader response theory, and technology in pedagogy.</p>
-                </div>
-                <div class="research-card">
-                    <i class="fas fa-globe card-icon"></i>
-                    <h3>Culture & Memory</h3>
-                    <p>Exploring trauma and memory studies alongside postcolonial criticism and visual culture.</p>
+                <div class="book-text">
+                    <span style="color: var(--accent); font-weight: bold; text-transform: uppercase;">Latest Publication (2025)</span>
+                    <h3>Narrating the Everyday: Spaces, Practices and Voices</h3>
+                    <p>Edited by Prasad, S., & Zehra, S. (Authors Press, New Delhi).</p>
+                    <p>An exploration of spaces, practices, and voices that define the everyday human experience through interdisciplinary lenses.</p>
+                    <a href="https://amzn.in/d/0iqpmb2V" target="_blank" class="amzn-btn">
+                        <i class="fab fa-amazon"></i> Available on Amazon
+                    </a>
                 </div>
             </div>
-        </section>
-
-        <!-- Upgraded Publications Section -->
-        <section id="publications" class="section">
-            <h2 class="section-title">Selected Publications</h2>
-            
-            <h3 class="subsection-title">Books</h3>
-            <div class="pub-card">
-                <div class="pub-year-badge">2025</div>
-                <div class="pub-content">
-                    <h4>Narrating the Everyday: Spaces, Practices and Voices</h4>
-                    <p class="pub-authors">Prasad, S., & Zehra, S.</p>
-                    <p class="pub-venue">Authors Press, New Delhi. ISBN: 9789360955298</p>
-                </div>
-            </div>
-
-            <h3 class="subsection-title mt-4">Peer-Reviewed Journal Articles</h3>
-            <div class="pub-card">
-                <div class="pub-year-badge">2025</div>
-                <div class="pub-content">
-                    <h4>Unveiling Masculine Trauma Narratives: Illuminating Their Role in Unraveling and Healing Generational Trauma within The Best We Could Do</h4>
-                    <p class="pub-authors">Zehra, S.</p>
-                    <p class="pub-venue">LangLit</p>
-                </div>
-            </div>
-            <div class="pub-card">
-                <div class="pub-year-badge">2024</div>
-                <div class="pub-content">
-                    <h4>The Language of Rebellion: Analysing Visual Rhetoric in Persepolis</h4>
-                    <p class="pub-authors">Zehra, S.</p>
-                    <p class="pub-venue">Caraiveti, 7, 45–62</p>
-                </div>
-            </div>
-            <div class="pub-card">
-                <div class="pub-year-badge">2024</div>
-                <div class="pub-content">
-                    <h4>Blind to the Machine: Reader Response Theory Meets AI Authors</h4>
-                    <p class="pub-authors">Zehra, S.</p>
-                    <p class="pub-venue">Fortell, 49, 14–27</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="teaching" class="section">
-            <h2 class="section-title">Academic Appointments</h2>
-            <div class="experience-card">
-                <div class="exp-header">
-                    <h3>Guest Faculty (Communication Skills)</h3>
-                    <span class="exp-date">August 2024 – Present</span>
-                </div>
-                <p class="exp-inst">Jamia Millia Islamia, New Delhi</p>
-                <ul class="styled-list">
-                    <li>Teaching Communication Skills to undergraduate students.</li>
-                    <li>Course planning and instructional design promoting critical thinking through interactive pedagogy.</li>
-                </ul>
-            </div>
-        </section>
+        </div>
     </main>
-
-    <footer class="footer">
-        <p>&copy; 2024 Dr. Shafaque Zehra. All rights reserved.</p>
-        <p>Email: zshafaque@gmail.com | Phone: +91 75000873388</p>
-    </footer>
-
     <script src="script.js"></script>
 </body>
 </html>
