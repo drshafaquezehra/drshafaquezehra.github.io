@@ -1,149 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400&display=swap');
-
-:root {
-    --hero-bg: #4a044e; /* Deep purple background matching your reference */
-    --text-light: #ffffff;
-    --text-dark: #222222;
-    --accent-color: #f2a900; /* Gold/yellow for the button border */
-    --font-serif: 'Playfair Display', serif;
-    --font-sans: 'Lato', sans-serif;
-}
-
-* { margin: 0; padding: 0; box-sizing: border-box; }
-
-body { 
-    font-family: var(--font-serif); 
-    color: var(--text-dark); 
-    line-height: 1.8; 
-    background-color: #ffffff;
-}
-
-/* --- Hero Section --- */
-.hero-section {
+/* --- Inner Page Styling --- */
+.page-header {
     background-color: var(--hero-bg);
     color: var(--text-light);
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
+    text-align: center;
 }
-
-/* Navbar */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem 5%;
-}
-.logo { 
-    font-size: 1.5rem; 
-    font-weight: 400; 
-}
-.nav-links { 
-    list-style: none; 
-    display: flex; 
-    gap: 1.5rem; 
-    flex-wrap: wrap;
-}
-.nav-links a { 
-    color: var(--text-light); 
-    text-decoration: none; 
-    font-family: var(--font-sans); 
-    font-size: 0.9rem; 
-}
-.nav-links a:hover, .nav-links a.active { 
-    text-decoration: underline; 
-    text-underline-offset: 4px;
-}
-
-/* Hero Content */
-.hero-content {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    max-width: 1200px;
-    margin: 2rem auto 0;
-    padding: 0 2rem;
-    gap: 2rem;
-}
-
-/* Left: Book Showcase */
-.hero-left { 
-    text-align: center; 
-    flex: 1;
-}
-.hero-left h2 { 
-    font-size: 2.8rem; 
-    margin-bottom: 2rem; 
-    font-weight: 400; 
-    letter-spacing: 0.02em;
-}
-.hero-book { 
-    width: 250px; 
-    box-shadow: 0 15px 30px rgba(0,0,0,0.4); 
-    margin-bottom: 2.5rem; 
-}
-.hero-btn {
-    display: block; 
-    width: fit-content; 
-    margin: 0 auto;
-    padding: 0.8rem 2rem;
-    border: 1px solid var(--accent-color);
-    color: var(--accent-color);
-    text-decoration: none;
-    font-family: var(--font-sans);
-    font-size: 0.9rem;
-    transition: 0.3s;
-}
-.hero-btn:hover { 
-    background: var(--accent-color); 
-    color: var(--hero-bg); 
-}
-
-/* Right: Profile Photo */
-.hero-right {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-}
-.hero-photo { 
-    width: 100%; 
-    max-width: 400px; 
-    border-radius: 4px;
-    object-fit: cover;
-}
-
-/* --- Intro Section (Below Hero) --- */
-.intro-section { 
-    padding: 5rem 2rem; 
-    background: #ffffff; 
-    text-align: center; 
-}
-.intro-container { 
-    max-width: 800px; 
-    margin: 0 auto; 
-}
-.intro-container h1 { 
-    font-size: 3.5rem; 
-    margin-bottom: 1rem; 
-    font-weight: 400; 
-}
-.designation { 
-    font-family: var(--font-sans); 
-    color: #555; 
-    margin-bottom: 2.5rem; 
-    font-size: 1.1rem; 
-    text-transform: uppercase;
+.page-header h1 {
+    font-size: 2.8rem;
+    font-weight: 400;
     letter-spacing: 0.05em;
 }
-.intro-container p { 
-    margin-bottom: 1.5rem; 
-    font-size: 1.25rem; 
-    text-align: justify; 
+.inner-content {
+    max-width: 900px;
+    margin: 4rem auto 6rem;
+    padding: 0 2rem;
 }
-
-/* Responsive Design */
-@media (max-width: 850px) {
-    .navbar { flex-direction: column; gap: 1.5rem; text-align: center; }
-    .nav-links { justify-content: center; }
-    .hero-content { flex-direction: column; gap: 4rem; }
-    .hero-left h2 { font-size: 2.2rem; }
-    .intro-container h1 { font-size: 2.5rem; }
+.inner-content h2 {
+    font-size: 2rem;
+    margin: 3rem 0 1.5rem;
+    color: var(--hero-bg);
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.5rem;
+    font-weight: 400;
+}
+.inner-content p {
+    margin-bottom: 1.5rem;
+    font-size: 1.15rem;
+    text-align: justify;
+}
+.inner-content ul {
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+    font-family: var(--font-sans);
+    font-size: 1.05rem;
+}
+.inner-content li {
+    margin-bottom: 0.8rem;
+}
+.job-block {
+    margin-bottom: 2.5rem;
+}
+.job-block h3 {
+    font-size: 1.5rem;
+    color: var(--text-dark);
+    margin-bottom: 0.2rem;
+}
+.job-meta {
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 1rem;
 }
