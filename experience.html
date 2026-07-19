@@ -2,75 +2,64 @@
 <html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
-    <title>Academic Experience | Dr. Shafaque Zehra</title>
+    <title>Dr. Shafaque Zehra | Experience</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <!-- (Copy the <nav> block exactly from index.html here) -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="index.html" class="logo">Dr. Shafaque Zehra</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="experience.html" class="active">Experience</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button id="theme-toggle"><i class="fas fa-moon"></i></button></li>
+            </ul>
+        </div>
+    </nav>
     
     <main class="container">
-        <h2 class="section-title">Academic Profile</h2>
-        
-        <div class="creative-grid">
-            <div>
-                <h3 style="margin-bottom: 2rem;">Education</h3>
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <span class="time-date">Awarded: 2024</span>
-                        <h4>Doctor of Philosophy (Ph.D.) in English Literature</h4>
-                        <p>Jamia Millia Islamia, New Delhi</p>
-                        <p><em>Dissertation: A Stylistic Study of Embedded Marginalization in Select Graphic Novels</em><br>Supervisor: Dr. Satya Prakash Prasad</p>
-                    </div>
-                    <div class="timeline-item">
-                        <span class="time-date">Qualified: 2020</span>
-                        <h4>UGC-NET (English)</h4>
-                    </div>
-                    <div class="timeline-item">
-                        <span class="time-date">2018</span>
-                        <h4>Master of Arts (English Literature)</h4>
-                        <p>Aligarh Muslim University | First Division</p>
-                    </div>
-                    <div class="timeline-item">
-                        <span class="time-date">2016</span>
-                        <h4>Bachelor of Arts (Honours) – English Literature</h4>
-                        <p>Aligarh Muslim University | First Division</p>
-                    </div>
-                </div>
-            </div>
+        <h2 class="section-title">Research Fellowships</h2>
+        <div class="card-item">
+            <span class="date">2023–2024</span>
+            <h4>Maulana Azad National Fellowship</h4>
+            <p>Senior Research Fellow</p>
+        </div>
+        <div class="card-item">
+            <span class="date">2021–2023</span>
+            <h4>Maulana Azad National Fellowship</h4>
+            <p>Junior Research Fellow</p>
+        </div>
 
-            <div>
-                <h3 style="margin-bottom: 2rem;">Appointments & Leadership</h3>
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <span class="time-date">Aug 2024 – Present</span>
-                        <h4>Guest Faculty (Communication Skills)</h4>
-                        <p>Jamia Millia Islamia, New Delhi</p>
-                        <ul class="styled-list" style="margin-top: 1rem;">
-                            <li>Teaching Communication Skills to undergraduate students</li>
-                            <li>Course planning and instructional design</li>
-                            <li>Student mentoring and classroom facilitation</li>
-                            <li>Promoting communication and critical thinking skills through interactive pedagogy</li>
-                        </ul>
-                    </div>
-                    <div class="timeline-item">
-                        <span class="time-date">2024</span>
-                        <h4>Organizing Committee Member</h4>
-                        <p>HHRS Annual International Conference (JNU)</p>
-                        <p>Delegate management (200+ participants), peer-review coordination, publication workflow.</p>
-                    </div>
-                </div>
-                
-                <h3 style="margin: 3rem 0 2rem;">Fellowships & Awards</h3>
-                <div class="card" style="margin-bottom: 1rem;">
-                    <strong>Maulana Azad National Fellowship</strong><br>
-                    Senior Research Fellow (2023–2024) <br>
-                    Junior Research Fellow (2021–2023)
-                </div>
-                <div class="card">
-                    <strong>Best Paper Award</strong><br>
-                    International Conference on Education Research Reforms (2021)
-                </div>
+        <h2 class="section-title">Awards</h2>
+        <div class="card-item">
+            <span class="date">2021</span>
+            <h4>Best Paper Award</h4>
+            <p>International Conference on Education Research Reforms</p>
+        </div>
+
+        <h2 class="section-title">Academic Leadership</h2>
+        <div class="card-item">
+            <span class="date">2024</span>
+            <h4>Organizing Committee Member</h4>
+            <p style="color: var(--text-muted); font-family: var(--font-sans); margin-bottom: 1rem;">HHRS Annual International Conference, Jawaharlal Nehru University</p>
+            <div class="grid-container" style="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); margin-top: 1rem;">
+                <div class="animated-box"><i class="fas fa-calendar-check"></i><p>Coordination</p><span>Conference organization</span></div>
+                <div class="animated-box"><i class="fas fa-id-badge"></i><p>Management</p><span>200+ delegates</span></div>
+                <div class="animated-box"><i class="fas fa-user-edit"></i><p>Peer-Review</p><span>Coordination</span></div>
+                <div class="animated-box"><i class="fas fa-file-pdf"></i><p>Publication</p><span>Workflow support</span></div>
             </div>
+        </div>
+
+        <h2 class="section-title">Faculty Development & Workshops</h2>
+        <div class="card-item">
+            <p style="margin-bottom: 0.8rem;"><i class="fas fa-certificate" style="color: var(--accent); margin-right: 10px;"></i> IEEE Xplore Digital Library for Research – Jamia Millia Islamia (2024)</p>
+            <p style="margin-bottom: 0.8rem;"><i class="fas fa-certificate" style="color: var(--accent); margin-right: 10px;"></i> Deconstruction in Modernist Contexts – IIT Gandhinagar (2024)</p>
+            <p><i class="fas fa-certificate" style="color: var(--accent); margin-right: 10px;"></i> Outcome-Based Learning: Evolving Teaching Quality Trends – University of Delhi (2024)</p>
         </div>
     </main>
     <script src="script.js"></script>
